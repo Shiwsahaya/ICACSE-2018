@@ -1,0 +1,87 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+
+.logo-small{
+	color: #f4511e;
+	font-size: 50px;
+}
+.logo-company{
+	color: #f4511e;
+	font-size: 200px;
+}
+
+.carousel-item{
+	height: 100vh;
+}
+.carousel-caption{
+	margin-bottom: 200px;
+}
+.carousel-caption h2{
+	color: #120d2e;
+	font-size: 3em;
+	opacity: 1.0
+}
+.carousel-caption p{
+	color: #01099e;
+	font-size: 1.3em;
+	opacity:1.0;
+}
+.card-header{
+	background: white;
+	border: none;
+}
+.card-header .btn:not(:disabled):not(.disabled){
+	width: 100%;
+	font-size: 20px;
+}
+.card-header .btn:not(:disabled):not(.disabled):hover{
+	background: #ccc;
+	opacity: 0.9;
+	box-shadow: 5px 10px #888888;
+	color: azure;
+}
+@media screen and (max-width: 600px) {
+   .carousel-caption p{
+		display: none;
+	}
+	.carousel-caption h2{
+		display: none;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+	.carousel-control-prev, .carousel-control-next {
+		display: none;
+	  }
+	  .logo-company{
+		  padding: 10px;
+		  font-size: 100px;
+		  text-align: center;
+	  }
+	  .container-fluid{
+		  display: block;
+		  text-align: center;
+	  }
+	  .carousel-inner{
+		width: 100vh;
+		height: 100vh;
+		margin-bottom: 0;
+	  }
+	  .carousel-inner img{
+		width: 100%;
+		height: auto;
+	
+ 	 }
+ 
+  }
+  .unique{
+	  background-image: url("../image/speaker.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  color: darkred;
+  }
+
+
+
